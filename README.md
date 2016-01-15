@@ -15,4 +15,4 @@ From the command line with Maven:
 
 $ cd spring-mvc-maven-template
 
-$ mvn clean packahe tomcat7:run [-Dmaven.tomcat.port=<port no.>] (In case 8080 is busy] 
+$ mvn clean package tomcat7:run [-Dmaven.tomcat.port=<port no.>] (In case 8080 is busy] 
