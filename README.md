@@ -4,7 +4,7 @@ Outline
 - Spring Security 4.0.1.RELEASE
 - Hibernate 4.3.6.Final
 - Jasper Report
-- Spring Mail
+- Velocity E-mail Template
 
 To get the code:
 Clone the repository:
