@@ -4,14 +4,15 @@ Outline
 - Spring Security 4.0.1.RELEASE
 - Hibernate 4.3.6.Final
 - Jasper Report
-- Spring Mail
+- Velocity E-mail Template
 
 To get the code:
 Clone the repository:
-git@github.com:saspallow/spring-mvc-maven.git
+git@github.com:saspallow/spring-mvc-maven-template.git
 
 To run the application:
 From the command line with Maven:
 
-$ cd spring-mvc-showcase
-$ mvn clean packahe tomcat7:run [-Dmaven.tomcat.port=<port no.>] (In case 8080 is busy] 
+$ cd spring-mvc-maven-template
+
+$ mvn clean package tomcat7:run [-Dmaven.tomcat.port=<port no.>] (In case 8080 is busy] 
