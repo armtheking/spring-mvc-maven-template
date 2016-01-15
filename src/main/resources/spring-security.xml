@@ -19,7 +19,7 @@
         <intercept-url pattern="/**" access="isAuthenticated()"/>
 
         <intercept-url pattern="/home" access="isAuthenticated()" />
-        <intercept-url pattern="/admin/**" access="hasRole('ADMIN')  />
+        <intercept-url pattern="/admin/**" access="hasRole('ADMIN')"  />
         <intercept-url pattern="/dba/**" access="hasRole('ADMIN') and hasRole('DBA')" />
         <form-login  login-page="/login" username-parameter="ssoId" password-parameter="password" 
                      authentication-success-handler-ref="customSuccessHandler"
