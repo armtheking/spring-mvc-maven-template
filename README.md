@@ -8,10 +8,10 @@ Outline
 
 To get the code:
 Clone the repository:
-git@github.com:saspallow/spring-mvc-maven.git
+git@github.com:saspallow/spring-mvc-maven-template.git
 
 To run the application:
 From the command line with Maven:
 
-$ cd spring-mvc-showcase
+$ cd spring-mvc-maven-template
 $ mvn clean packahe tomcat7:run [-Dmaven.tomcat.port=<port no.>] (In case 8080 is busy] 
